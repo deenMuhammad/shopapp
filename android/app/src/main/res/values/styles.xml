@@ -1,0 +1,11 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:windowBackground">@drawable/launch_screen_bitmap</item>
+<<<<<<< HEAD
+        <item name="colorPrimaryDark">#ffffff</item>
+=======
+        <item name="colorPrimaryDark">#510273</item>
+>>>>>>> 308781bbbd3f2b557780b4bda2037df38d3213ad
+    </style>
+</resources>

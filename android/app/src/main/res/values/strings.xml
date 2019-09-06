@@ -1,0 +1,14 @@
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">utJFFrC7qIeISZ27t26BBa8RRW57S1XKu2bAN</string>
+<<<<<<< HEAD
+    <string name="app_name">Dangasa</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="facebook_app_id">2531985260366038</string>
+    <string name="fb_login_protocol_scheme">1484527065208678</string>
+=======
+    <string name="app_name">yuz1</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+>>>>>>> 308781bbbd3f2b557780b4bda2037df38d3213ad
+</resources>
