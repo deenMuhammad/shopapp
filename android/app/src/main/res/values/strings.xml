@@ -1,0 +1,8 @@
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">utJFFrC7qIeISZ27t26BBa8RRW57S1XKu2bAN</string>
+    <string name="app_name">Dangasa</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="facebook_app_id">2531985260366038</string>
+    <string name="fb_login_protocol_scheme">1484527065208678</string>
+</resources>
