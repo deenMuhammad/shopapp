@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
@@ -28,10 +29,31 @@ target 'shopapp' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   target 'shopappTests' do
+=======
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'app' do
+  pod 'AppCenter/Crashes', '~> 1.14.0'
+  pod 'AppCenter/Analytics', '~> 1.14.0'
+  pod 'AppCenterReactNativeShared', '~> 1.13.0'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for app
+
+  
+
+  platform :ios, '9.0'
+  pod 'react-native-fast-image', :path => '../node_modules/react-native-fast-image'
+
+  target 'appTests' do
+>>>>>>> origin/master
     inherit! :search_paths
     # Pods for testing
   end
 
+<<<<<<< HEAD
   use_native_modules!
 end
 
@@ -39,6 +61,17 @@ target 'shopapp-tvOS' do
   # Pods for shopapp-tvOS
 
   target 'shopapp-tvOSTests' do
+=======
+end
+
+target 'app-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for app-tvOS
+
+  target 'app-tvOSTests' do
+>>>>>>> origin/master
     inherit! :search_paths
     # Pods for testing
   end

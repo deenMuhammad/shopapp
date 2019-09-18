@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "shopapp",
   "displayName": "shopapp"
+=======
+  "name": "app",
+  "displayName": "app"
+>>>>>>> origin/master
 }

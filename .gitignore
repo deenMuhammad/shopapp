@@ -1,9 +1,15 @@
 # OSX
+<<<<<<< HEAD
 #
 .DS_Store
 
 # Xcode
 #
+=======
+.DS_Store
+
+# Xcode
+>>>>>>> origin/master
 build/
 *.pbxuser
 !default.pbxuser
@@ -23,7 +29,10 @@ DerivedData
 project.xcworkspace
 
 # Android/IntelliJ
+<<<<<<< HEAD
 #
+=======
+>>>>>>> origin/master
 build/
 .idea
 .gradle
@@ -31,7 +40,10 @@ local.properties
 *.iml
 
 # node.js
+<<<<<<< HEAD
 #
+=======
+>>>>>>> origin/master
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -55,5 +67,12 @@ buck-out/
 # Bundle artifact
 *.jsbundle
 
+<<<<<<< HEAD
 # CocoaPods
 /ios/Pods/
+=======
+# Custom
+.env
+yarn.lock
+package-lock.json
+>>>>>>> origin/master

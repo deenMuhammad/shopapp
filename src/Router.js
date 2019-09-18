@@ -63,7 +63,11 @@ const Tab = createMaterialTopTabNavigator({
   },
 }, {
     lazy: true,
+<<<<<<< HEAD
     swipeEnabled: true,
+=======
+    swipeEnabled: false,
+>>>>>>> origin/master
     optimizationsEnable: true,
     tabBarOptions: {
       showIcon: true,
@@ -356,8 +360,11 @@ const DrawerComponent = observer(props => (
         ) : (
             <TouchableOpacity onPress={() => Linking.openURL('http://dangasa.uz/business')}>
               <View style={[styles.row, {
+<<<<<<< HEAD
                 padding: 10,
                 paddingLeft: 20,
+=======
+>>>>>>> origin/master
                 flexDirection: 'row',
                 alignItems: 'center'
               }]}>
